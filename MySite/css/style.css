@@ -1,0 +1,229 @@
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    width: 250px;
+    text-align: center;
+    margin-left: 580px;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+a.git{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-color: black;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 450px;
+    text-decoration: none;
+}
+a.den{
+    background-color: #0A66C2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-color: #0A66C2;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 197px;
+    text-decoration: none;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    width: 150px;
+    text-align: center;
+    margin-left: 630px;
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 350px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 350px;
+}
+p{
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: left;
+    line-height: 1.6;
+}
+ul{
+    margin-left: 400px;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:600px) {
+    a.git{
+   width: fit-content;
+    margin: 10px auto;
+    max-width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  a.den{
+    width: fit-content;
+    margin: 10px auto;
+    max-width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+h1{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h2{
+     width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h3{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h4{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+p{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+ul{
+     width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+li{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+h6{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+}
+@media (max-width:900px) and (orientation: landscape){
+    a.git{
+    width: auto;
+    margin-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  a.den{
+    width: auto;
+    margin-left: 250px;
+    display:inline-block block;
+    box-sizing: border-box;
+  }
+h1{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h2{
+     width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h3{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h4{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+p{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    white-space: normal;
+    text-align: left;
+    line-height: 1.6;
+
+}
+ul{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+li{
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+h6{
+    width:auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+}
